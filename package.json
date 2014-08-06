@@ -1,0 +1,26 @@
+{
+  "name": "eno",
+  "version": "0.0.0",
+  "description": "eno editor",
+  "main": "app.js",
+  "scripts": {
+    "start": "watchify app.js -o ../eno-site/bundle.js",
+    "build": "browserify app.js | uglifyjs -c > ../eno-site/bundle.min.js"
+  },
+  "author": "dhcole",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "jquery": "^2.1.1",
+    "js-yaml": "^3.1.0",
+    "marked": "^0.3.2",
+    "react": "^0.11.1",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "browserify": "^5.9.1",
+    "reactify": "^0.14.0",
+    "uglify-js": "^2.4.15",
+    "watchify": "^1.0.1"
+  }
+}
