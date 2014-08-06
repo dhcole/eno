@@ -19,8 +19,8 @@ todo
 
 - filename title and date values (don't use them)
 - `site` fields
-+ use Liquid templating
-+ disable contentEditable formatting options, format contentEditor (monospace, remove breaks)
+- ~~use Liquid templating~~
+- ~~disable contentEditable formatting options, format contentEditor (monospace, remove breaks)~~
 - test multiple post layouts
-+ default content
-+ format dates
+- ~~default content~~
+- ~~format dates~~
